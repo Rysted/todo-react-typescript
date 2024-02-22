@@ -3,10 +3,6 @@ import { TodoComponent } from "./components/Todo";
 import { Todo } from "./types";
 
 export interface AppState {
-  filter: {
-    limit: number;
-    skip: number;
-  };
   data: {
     limit: number;
     skip: number;
